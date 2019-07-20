@@ -11,9 +11,9 @@ const parser = port.pipe(new Readline({ delimiter: '\r\n' }))
 
 var Headless = require('cabal-headless')
 
-//var key = 'cabal://dbba51816be0a6199a769f96726621398d81db6faca829012f79c3c2d8d5f529'
 
-var key = 'cabal://0201400f1aa2e3076a3f17f4521b2cc41e258c446cdaa44742afe6e1b9fd5f82'
+
+//var key = 'cabal:// [SOME CABAL KEY ]'
 
 var opts = {}
 
